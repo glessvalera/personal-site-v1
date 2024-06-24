@@ -20,11 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="min-h-screen justify-between">
         <CssBaseline />
         <AppBarNav />
-        <Box className="flex flex-col flex-1">
-          <Box className={inter.className + " flex flex-col flex-1"}>{children}</Box>
+        <Box className="flex flex-col flex-1 xl:mx-64">
+          <Box className={`${inter.className} flex flex-col flex-1`}>{children}</Box>
           <BottomNav />
         </Box>
       </body>
