@@ -12,7 +12,7 @@ export default function ContactMe() {
             </div>
             {/* Content */}
             <Typography variant="body2">
-                Hi new friend!  If you have any questions or want to create something great together, let's connect!  
+                Hi new friend!  If you have any questions or want to create something great together, let&apos;s connect!  
             </Typography>
             {/* Action Buttons */}
             <Button variant="contained" href="/about"><ArrowForwardIosIcon  href={`mailto:${config.MAIL_LINK}`}/> Contact Me </Button>

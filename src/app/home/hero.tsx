@@ -20,7 +20,7 @@ export default function Hero() {
                     A UX researcher in Southern California
                 </Typography>
                 <Typography variant="body2" component="li">
-                    A scientist who studies people's behavior to make experiences more enjoyable
+                    A scientist who studies people&apos;s behavior to make experiences more enjoyable
                 </Typography>
             </ul>
             <Typography className="self-start" variant="body1">
