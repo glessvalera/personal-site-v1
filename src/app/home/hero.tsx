@@ -9,7 +9,7 @@ export default function Hero() {
             {/* Title */}
             <div className='flex flex-row w-full justify-center'>
                 <Typography variant="h3" component="pre">Julianne </Typography>
-                <Typography variant="h3" className="highlight before:bg-violet-400">Gless Valera</Typography>
+                <Typography variant="h3" className="highlight before:bg-violet-400 text-center">Gless Valera</Typography>
             </div>
             {/* Subtitle 1 */}
             <Typography variant="subtitle1">noun | /‘ju•li•æn glɛs vɑ•lɛ•rɑ/</Typography>

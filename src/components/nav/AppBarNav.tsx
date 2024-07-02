@@ -11,10 +11,8 @@ import Link from 'next/link'
 import config from '@public/config.json';
 
 export default function AppBarNav() {
-
-
     return (
-        <AppBar position="absolute" color="transparent">
+        <AppBar position="absolute" color="inherit">
             <Toolbar>
                 <IconButton
                     size="large"
@@ -26,7 +24,7 @@ export default function AppBarNav() {
                 </IconButton>
                 <span className="flex flex-row grow">
                     <Link href="/" passHref>
-                        <Button href="/" className="gap-x-2">
+                        <Button className="gap-x-2">
                             <Typography variant="h6">
                                 Gless Valera
                             </Typography>
