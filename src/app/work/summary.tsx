@@ -1,32 +1,43 @@
-import { WorkCard, WorkType } from "@/components/card/WorkCard";
+import { WorkCard } from "@/components/card/WorkCard";
+import { WorkType } from "@/components/types/WorkTypes";
 import Grid from "@mui/material/Grid";
+
+import work from "@public/work.json"
 
 export default function Summary() {
     return (
         <Grid container columns={{ s: 6, md: 12 }}>
             <Grid xs={6} className="flex justify-center items-center pt-5">
                 <WorkCard
-                    title="Empowering Humanitarian Efforts in Southeast Asia: Product Validation for Impact"
-                    org="We Help and Care"
-                    workType={WorkType.UXR} />
+                    title={work.WeHelpAndCare.title}
+                    org={work.WeHelpAndCare.org}
+                    workType={WorkType.UXR}
+                    alt=""
+                    navTo="/work/we-help-and-care/" />
             </Grid>
             <Grid xs={6} className="flex justify-center items-center pt-5">
                 <WorkCard
-                    title="Closing the Equity Gap: Content Optimization to Support Black and Brown Homeschooling"
-                    org="The Melanin Village"
-                    workType={WorkType.UXR} />
+                    title={work.MelaninVillage.title}
+                    org={work.MelaninVillage.org}
+                    workType={WorkType.UXR} 
+                    alt=""
+                    navTo="/work/melanin-village/"/>
             </Grid>
             <Grid xs={6} className="flex justify-center items-center pt-5">
                 <WorkCard
-                    title="Cultivating Conservation Champions: Inspiring Action Through Wildlife Education"
-                    org="Endangered Species International"
-                    workType={WorkType.UIUX} />
+                    title={work.EndangeredSpecies.title}
+                    org={work.EndangeredSpecies.org}
+                    workType={WorkType.UIUX} 
+                    alt=""
+                    navTo="/work/endangered-species-international/"/>
             </Grid>
             <Grid xs={6} className="flex justify-center items-center pt-5">
                 <WorkCard
-                    title="Smart Parking: Real-Time Availability for a Smoother Commute"
-                    org="ParkMobile LIVE"
-                    workType={WorkType.UIUX} />
+                    title={work.ParkMobileLive.title}
+                    org={work.ParkMobileLive.org}
+                    workType={WorkType.UIUX} 
+                    alt=""
+                    navTo="/work/parkmobile-live/"/>
             </Grid>
         </Grid>
     );

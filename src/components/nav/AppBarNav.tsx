@@ -12,7 +12,7 @@ import config from '@public/config.json';
 
 export default function AppBarNav() {
     return (
-        <AppBar position="absolute" color="inherit">
+        <AppBar position="relative" color="inherit">
             <Toolbar>
                 <IconButton
                     size="large"
@@ -23,44 +23,30 @@ export default function AppBarNav() {
                 >
                 </IconButton>
                 <span className="flex flex-row grow">
-                    <Link href="/" passHref>
-                        <Button className="gap-x-2">
-                            <Typography variant="h6">
-                                Gless Valera
-                            </Typography>
-                            <Typography variant="h6" className="opacity-60">
-                                /glɛs vɑ•lɛ•rɑ/
-                            </Typography>
-                        </Button>
-                    </Link>
+                    <Button className="gap-x-2" LinkComponent={Link} href="/" >
+                        <Typography variant="h6">
+                            Gless Valera
+                        </Typography>
+                        <Typography variant="h6" className="opacity-60">
+                            /glɛs vɑ•lɛ•rɑ/
+                        </Typography>
+                    </Button>
                 </span>
-
-
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-6">
                     <li>
-                        <Link href="/about" passHref>
-                            <Button >About</Button>
-                        </Link>
+                        <Button LinkComponent={Link} href="/about" >About</Button>
                     </li>
                     <li>
-                        <Link href="/work" passHref>
-                            <Button >Work</Button>
-                        </Link>
+                        <Button LinkComponent={Link} href="/work" >Work</Button>
                     </li>
                     <li>
-                        <Link href={config.RESUME_LINK} passHref>
-                            <Button >Resume</Button>
-                        </Link>
+                        <Button LinkComponent={Link} href={config.RESUME_LINK} >Resume</Button>
                     </li>
                     <li>
-                        <Link href={`mailto:${config.MAIL_LINK}`} passHref>
-                            <Button >Contact</Button>
-                        </Link>
+                        <Button LinkComponent={Link} href={`mailto:${config.MAIL_LINK}`}>Contact</Button>
                     </li>
                     <li>
-                        <Link href="/faq" passHref>
-                            <Button >Why Hire Me?</Button>
-                        </Link>
+                        <Button LinkComponent={Link} href="/faq">Why Hire Me?</Button>
                     </li>
                 </ul>
             </Toolbar>

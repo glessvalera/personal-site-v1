@@ -1,0 +1,81 @@
+{
+    "EndangeredSpecies": {
+        "title": "Cultivating Conservation Champions: Inspiring Action Through Wildlife Education",
+        "org": "Endangered Species International",
+        "team": [
+            "Julianne Gless Valera",
+            "Natalie Stephens",
+            "Scott Yasuda"
+        ],
+        "roles": [
+            "UX Research",
+            "UI Design",
+            "Usability Testing",
+            "Wireframes",
+            "Prototypes"
+        ],
+        "projectType": "Website Redesign",
+        "time": "4 weeks",
+        "summary": "Endangered Species International is a nonprofit organization dedicated to spreading awareness about wildlife conservation.  My team and I were given the task to redesign the website to give the user a smoother experience, and did so through improving consistency, reorganizing navigation systems, and removing unnecessary content.  With the slicker design, users are well-educated on the matter of conservation and are motivated to donate to the organization."
+    },
+    "MelaninVillage": {
+        "title": "Closing the Equity Gap: Content Optimization to Support Black and Brown Homeschooling",
+        "org": "The Melanin Village",
+        "roles": [
+            "UX Research",
+            "UX Design",
+            "UI Writing ",
+            "Project Management",
+            "Project Strategy",
+            "Web Development"
+        ],
+        "tools": [
+            "Figma",
+            "Slack",
+            "Notion",
+            "Zoom",
+            "Google Workspace"
+        ],
+        "time": "September 2023 - December 2023",
+        "summary": "The Melanin Village (TMV) is a social-impact organization that provides educational resources, professional development, and a supportive community to encourage Black and Brown families to homeschool.",
+        "disclaimer": "This is only Phase 1 of the project and there will be more in the future.  A previous team has already worked on Phase 0."
+    },
+    "ParkMobileLive": {
+        "title": "Smart Parking: Real-Time Availability for a Smoother Commute",
+        "org": "ParkMobile LIVE",
+        "team": [
+            "Julianne Gless Valera",
+            "Cecilia Gutierrez",
+            "Ravina Grewal"
+        ],
+        "roles": [
+            "UX Research",
+            "User Journeys",
+            "Usability Testing",
+            "Wireframes",
+            "Prototypes"
+        ],
+        "time": "3 Weeks",
+        "projectType": "Mobile App Feature Addition & Redesign",
+        "summary": "ParkMobile LIVE is a redesigned mobile app that offers the same features as the current ParkMobile app, which allows drivers to reserve parking spots and pay for them ahead of time.  Our team noticed that while drivers are able to know what parking garages or parking lots have vacant spots, it can still be difficult finding those specific spots that are vacant.  ParkMobile LIVE offers a solution where drivers can receive live updates on what specific spots are available for any kind of parking area."
+    },
+    "WeHelpAndCare": {
+        "title": "Empowering Humanitarian Efforts in Southeast Asia: Product Validation for Impact",
+        "org": "We Help and Care",
+        "roles": [
+            "UX Research",
+            "Product Strategy"
+        ],
+        "tools": [
+            "Figma",
+            "Slack",
+            "Notion",
+            "Zoom",
+            "Google Workspace"
+        ],
+        "projectType": "Website Redesign",
+        "time": "October 2023 - December 2023",
+        "summary": "We Help and Care (WHC) is a non-profit charity supporting operations in Southeast Asia, especially in Myanmar, who need urgent humanitarian and development assistance.",
+        "disclaimer": "This is only Phase 0 of the project and there will be more in the future.  We will be setting up a research foundation for future phases."
+    }
+}
